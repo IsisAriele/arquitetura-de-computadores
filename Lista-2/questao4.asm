@@ -13,13 +13,10 @@ beq $8, $9, fimiguais
 
 teste2:
 slt $10, $8, $9
-beq $10, $0, maior8 # Alternativa: comparar com registrador que armazena const 1.
+beq $10, $0, fimmaior8 # Alternativa: comparar com registrador que armazena const 1.
 
 maior9:
 j fimmaior9
-
-maior8:
-j fimmaior8
 
 fimmaior8:
 add $4, $0, $8

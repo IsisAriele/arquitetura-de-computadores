@@ -6,8 +6,6 @@ main: addi $2, $0, 5
       syscall
       add $9, $0, $2
      
-
-     
       slt $10, $8, $9 # Se $8 < $9 então
                       #   $10 <= 1
                       # senão

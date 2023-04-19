@@ -10,7 +10,7 @@ add $9, $0, $2
 
 teste:
 slt $10, $8, $9
-beq $10, $0, maior8 # Alternativa: comparar com registrador que armazena const 1.
+beq $10, $0, maior8 # Altern ativa: comparar com registrador que armazena const 1.
 add $4, $0, $9
 j fim
 

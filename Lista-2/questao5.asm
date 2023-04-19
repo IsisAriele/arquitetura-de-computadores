@@ -55,14 +55,12 @@ syscall
 j fim
 
 reprovacao:
-add $4, $0, $12
 addi $2, $0, 1
 syscall
 
 addi $4, $0, 'R'
 addi $2, $0, 11
 syscall
-j fim
 
 fim:
 addi $2, $0, 10
